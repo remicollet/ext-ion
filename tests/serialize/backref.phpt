@@ -30,16 +30,16 @@ array(1) {
   *RECURSION*
 }
 [[R::r::1],["a",r::4,o::{},r::5,[1,2,3],r::6],r::3,r::4,r::5,r::6]
-array(6) refcount(2){
+array(6) %sefcount(2){
   [0]=>
-  array(1) refcount(2){
+  array(1) %sefcount(2){
     [0]=>
     reference refcount(1) {
       *RECURSION*
     }
   }
   [1]=>
-  array(6) refcount(2){
+  array(6) %sefcount(2){
     [0]=>
     string(1) "a" refcount(3)
     [1]=>
@@ -51,7 +51,7 @@ array(6) refcount(2){
     object(stdClass)#%d (0) refcount(3){
     }
     [4]=>
-    array(3) refcount(3){
+    array(3) %sefcount(3){
       [0]=>
       int(1)
       [1]=>
@@ -60,7 +60,7 @@ array(6) refcount(2){
       int(3)
     }
     [5]=>
-    array(3) refcount(3){
+    array(3) %sefcount(3){
       [0]=>
       int(1)
       [1]=>
@@ -70,7 +70,7 @@ array(6) refcount(2){
     }
   }
   [2]=>
-  array(6) refcount(2){
+  array(6) %sefcount(2){
     [0]=>
     string(1) "a" refcount(3)
     [1]=>
@@ -82,7 +82,7 @@ array(6) refcount(2){
     object(stdClass)#%d (0) refcount(3){
     }
     [4]=>
-    array(3) refcount(3){
+    array(3) %sefcount(3){
       [0]=>
       int(1)
       [1]=>
@@ -91,7 +91,7 @@ array(6) refcount(2){
       int(3)
     }
     [5]=>
-    array(3) refcount(3){
+    array(3) %sefcount(3){
       [0]=>
       int(1)
       [1]=>
@@ -106,7 +106,7 @@ array(6) refcount(2){
   object(stdClass)#%d (0) refcount(3){
   }
   [5]=>
-  array(3) refcount(3){
+  array(3) %sefcount(3){
     [0]=>
     int(1)
     [1]=>

@@ -85,7 +85,7 @@ Deprecated: recursive implements the Serializable interface, which is deprecated
 Deprecated: except implements the Serializable interface, which is deprecated. Implement __serialize() and __unserialize() instead (or in addition, if support for old PHP versions is necessary) in %sserialize/serializable.php on line %d
 
 [S::test::{{"foobar"}},r::1]
-array(2) refcount(2){
+array(2) %sefcount(2){
   [0]=>
   object(test)#%d (1) refcount(2){
     ["data":protected]=>
